@@ -6,12 +6,11 @@ What's the context for the changes? Is there any feature / US / Bug or incident?
 
 Here give examples of the changes you've made in this pull request. Include an itemized list if you can. It'll help the reviewer
 
-
-### 🧪 Test plan
+### 📝 Test plan
 
 How do you know the changes are safe to ship to production?
 
-### 🏎 Quality check
+### ✅ Quality check
 
 - [ ] Self review completed aganist the code review checklist
 
@@ -21,20 +20,23 @@ How do you know the changes are safe to ship to production?
 
 - [ ] Junits are added to cover all required scenarios
 
-### 🏎 Security and privacy check
+- [ ] All Trivy reported code vulnarabilities solved
+
+### 🔐 Security and privacy check
 
 - [ ]  Does this code change reveal any secret information like keys, passwords, or usernames?
 
 - [ ]  Is sensitive data securely handled and stored?
 
-### 🏎 External openion
+### 🗣️ External openion
 
 - [ ]  Do you think a specific expert, like a security expert or a usability expert, should look over the code before it can be accepted?
 
 - [ ]  Will this code change impact different teams, are they informed? 
-           - [ ]  and should they review the change as well?
 
-### 🏎 Additional information
+- [ ]  Do you think external team should review the change?
+
+### 💬 Additional information
 
 Is there anything additional you'd like to add?
 
