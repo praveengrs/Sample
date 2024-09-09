@@ -1,0 +1,23 @@
+name: Post Merge Action
+
+# Trigger the workflow on push to the 'main' branch, which includes merges.
+on:
+  push:
+    branches:
+      - main  # Specify the branch where the merge happens (change to your branch name)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Print Action Started
+      run: echo "Action started"
+
+    - name: Run Post-Merge Script
+      run: |
+        echo "This action is triggered after a merge to the main branch."
+        # Add your script or action here
